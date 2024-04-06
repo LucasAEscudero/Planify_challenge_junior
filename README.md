@@ -2,7 +2,7 @@
 ## Instalacion y ejecucion
 > [!NOTE]
 > Si se accede desde el deploy del proyecto que se encuentra al final del README, se puede omitir la instalacion y la ejecucion!
-1. Posicionado en la carpeta del proyeto, sed ebe ejecutar el siguiente comando para la instalacion de dependencias:
+1. Posicionado en la carpeta del proyeto, se debe ejecutar el siguiente comando para la instalacion de dependencias:
 
 ```sh
 npm install
