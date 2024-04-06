@@ -5,9 +5,9 @@ interface ProgressBarProps {
 
 function ProgressBar({ percentage, barTitle }: ProgressBarProps) {
   return (
-    <div className="">
+    <section>
       {/* title */}
-      {barTitle && <p className="text-start">{barTitle}</p>}
+      {barTitle && <h2 className="text-start">{barTitle}</h2>}
 
       {/* progress bar */}
       <div className=" bg-[#d8dee3] rounded-sm w-[100%] relative">
@@ -16,7 +16,7 @@ function ProgressBar({ percentage, barTitle }: ProgressBarProps) {
           style={{ width: `${percentage}%` }}
         ></div>
       </div>
-    </div>
+    </section>
   );
 }
 
