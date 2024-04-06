@@ -108,7 +108,7 @@ function Home() {
       </div>
 
       {serviceSelected !== 0 && (
-        <section className="border-t mt-10 sticky z-[1000] bottom-[3em] sm:bottom-0 bg-white">
+        <section className="border-t mt-10 sticky z-[1000] bottom-[3.12em] sm:bottom-0 bg-white">
           {progress > 25 && (
             <button
               className="bg-[#495A69] p-1 text-white mx-5 mt-3 float-start"

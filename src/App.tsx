@@ -31,7 +31,7 @@ function App() {
           <Route path="/my-turns" element={<MyTurns />} />
         </Routes>
       </main>
-      <header className="sticky z-[999] sm:hidden bottom-0 bg-white">
+      <header className="sticky z-[999] sm:hidden bottom-0 bg-white border-t">
         <NavBar />
       </header>
     </>

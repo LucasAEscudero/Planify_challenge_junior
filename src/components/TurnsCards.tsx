@@ -11,8 +11,8 @@ function TurnsCards({ turns }: TurnsCardsProps) {
     <>
       {turns.length ? (
         <div className="flex flex-col">
-          {turns.map((turn) => (
-            <TurnsCard name={turn.name} date={turn.date} />
+          {turns.map((turn, i) => (
+            <TurnsCard key={i} name={turn.name} date={turn.date} />
           ))}
         </div>
       ) : (
